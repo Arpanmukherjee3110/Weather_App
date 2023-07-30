@@ -38,9 +38,9 @@ function success(data) {
   
       if (request.status === 200){
         var data = JSON.parse(request.responseText);
-        document.getElementById("location").innerHTML = "Your Location: "+data.results[0].components.city;
+        document.getElementById("location").innerHTML = "Your Location: "+data.results[0].components.county;
         document.getElementById("licon").src="licon-removebg-preview.png";
-        document.getElementById("slocate").innerHTML = data.results[0].components.city.toUpperCase();
+        document.getElementById("slocate").innerHTML = data.results[0].components.county.toUpperCase();
         var req = new XMLHttpRequest();
         var st="https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=66334f31881496924b80ada017081aa2";
            req.open("GET", st)
