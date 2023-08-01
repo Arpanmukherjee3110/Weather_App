@@ -1,7 +1,7 @@
 // APIs used in this project:
 // unsplash --> 'https://source.unsplash.com/1600x900/?india';
 // openweather --> https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=66334f31881496924b80ada017081aa2
-// opencage --> "https://api.opencagedata.com/geocode/v1/json?q="+document.getElementById("txt").value+"&key=9902d233542845949faf72a3f296187a
+// opencage --> https://api.opencagedata.com/geocode/v1/json?q={lat},{lon}&key=9902d233542845949faf72a3f296187a
 
 
 //Positioning The Search Label
@@ -107,8 +107,8 @@ function success(data) {
                 }
                 else if(maindata.toLowerCase() =="clouds"){
                   document.getElementById("wicon").src="cloud-removebg-preview.png";
-                  document.getElementById("wicon").style.height="6vh";
-                  document.getElementById("wicon").style.marginLeft="5.7vh";
+                  document.getElementById("wicon").style.height="7vh";
+                  document.getElementById("wicon").style.marginLeft="6vh";
                 }
                 else if(maindata.toLowerCase() =="rain"){
                   document.getElementById("wicon").src="precip-removebg-preview.png";
@@ -212,8 +212,8 @@ document.getElementById("search-button").addEventListener("click",function(){
                 }
                 else if(maindata.toLowerCase() =="clouds"){
                   document.getElementById("wicon").src="cloud-removebg-preview.png";
-                   document.getElementById("wicon").style.height="6vh";
-                  document.getElementById("wicon").style.marginLeft="5.7vh";
+                   document.getElementById("wicon").style.height="7vh";
+                  document.getElementById("wicon").style.marginLeft="6vh";
                 }
                 else if(maindata.toLowerCase() =="rain"){
                   document.getElementById("wicon").src="precip-removebg-preview.png";
