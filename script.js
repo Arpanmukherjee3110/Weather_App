@@ -108,7 +108,7 @@ function success(data) {
                 else if(maindata.toLowerCase() =="clouds"){
                   document.getElementById("wicon").src="cloud-removebg-preview.png";
                   document.getElementById("wicon").style.height="6vh";
-                  document.getElementById("wicon").style.marginLeft="5.2vh";
+                  document.getElementById("wicon").style.marginLeft="5.7vh";
                 }
                 else if(maindata.toLowerCase() =="rain"){
                   document.getElementById("wicon").src="precip-removebg-preview.png";
@@ -213,7 +213,7 @@ document.getElementById("search-button").addEventListener("click",function(){
                 else if(maindata.toLowerCase() =="clouds"){
                   document.getElementById("wicon").src="cloud-removebg-preview.png";
                    document.getElementById("wicon").style.height="6vh";
-                  document.getElementById("wicon").style.marginLeft="5.2vh";
+                  document.getElementById("wicon").style.marginLeft="5.7vh";
                 }
                 else if(maindata.toLowerCase() =="rain"){
                   document.getElementById("wicon").src="precip-removebg-preview.png";
