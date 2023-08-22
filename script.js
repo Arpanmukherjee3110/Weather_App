@@ -2,6 +2,7 @@
 // unsplash --> 'https://source.unsplash.com/1600x900/?india';
 // openweather --> https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=66334f31881496924b80ada017081aa2
 // opencage --> https://api.opencagedata.com/geocode/v1/json?q={lat},{lon}&key=9902d233542845949faf72a3f296187a
+//reverse geocoding --> https://api.opencagedata.com/geocode/v1/json?q=23.5045,87.3423&key=9902d233542845949faf72a3f296187a&pretty=1&no_annotations=1
 
 
 //Positioning The Search Label
