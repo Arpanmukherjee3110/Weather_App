@@ -41,7 +41,7 @@ body{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    box-shadow: 1vh 1vh 4vh rgba(1,1,1 ,1);
+    box-shadow: 1vh 1vh 4vh rgba(30,30,50 ,1);
 }
 .locate{
     color:aliceblue;
@@ -135,6 +135,18 @@ body{
     position:absolute;
     top:-5vh;
     background-color: transparent;
+    animation: wanim 8s ease-in-out infinite;
+}
+@keyframes wanim{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(360deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
 }
 .temp{
     color: aliceblue;
